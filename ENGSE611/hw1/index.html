@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัวเอง | Wijitsin Fangyen</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #f9f9f9;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: #111;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px 0;
+            background: #222;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #d4af37; /* ทองหรู */
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            border-radius: 12px;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            border: 3px solid #d4af37;
+        }
+
+        h2 {
+            color: #111;
+            border-left: 6px solid #d4af37;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: #111;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+
+        td {
+            padding: 12px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #d4af37;
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #111;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- คอมเมนต์ #1 -->
+    <!-- ส่วนหัวของเว็บ -->
+    <header>
+        <h1>สวัสดีครับ ฉันชื่อ Wijitsin Fangyen</h1>
+        <p>จัดทำ Website นี้เพื่อเเนะนำตนเอง</p>
+    </header>
+
+    <nav>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#skills">ทักษะ</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>เกี่ยวกับฉัน</h2>
+            <img src="C:\se1-2\WebSec2\hw1\471352150_18248413588302739_5418745640365913654_n.jpg" alt="รูปโปรไฟล์ของฉัน" class="profile-img">
+
+            <p>
+                ฉันเป็นนักศึกษาที่หลงใหลในการพัฒนาเว็บไซต์ การเขียนโปรแกรม 
+                และงานด้านเทคโนโลยีต่าง ๆ รวมถึงการเรียนรู้อย่างต่อเนื่องเพื่อพัฒนาตัวเองในสายอาชีพที่ต้องการเติบโต
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>ทักษะของฉัน</h2>
+            <p>สิ่งที่กำลังฝึกและใช้งานอยู่ในปัจจุบัน:</p>
+
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Java Programming</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>ตารางเวลาประจำวัน</h2>
+
+            <table>
+                <tr>
+                    <th colspan="2">ตารางเรียนของฉัน</th>
+                </tr>
+                <tr>
+                    <td>09:00 - 12:00</td>
+                    <td>เรียน</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:00 - 16:00</td>
+                    <td>เรียน / ทำ Homework</td>
+                </tr>
+                <tr>
+                    <td>ทำ Project</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>ติดต่อฉัน</h2>
+
+            <!-- คอมเมนต์ #2 -->
+            <!-- ฟอร์มติดต่อแบบเรียบหรู -->
+
+            <form>
+                <label>Wijitsin Fangyen</label>
+                <input type="text" required>
+
+                <label>wijitsin@gmail.com</label>
+                <input type="email" required>
+                 <label>ข้อความถึงฉัน</label>
+                <textarea rows="4" required></textarea>
+
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Social Media</h2>
+            <p>
+                <a href="https://www.facebook.com/wijitsin.fangyen/photos?locale=th_TH" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/_wijitsinx_/" target="_blank">Instagram</a> |
+                <a href="https://github.com/wijitsinfangyen" target="_blank">GitHub</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2025 Shell — Personal Website
+    </footer>
+
+</body>
+</html>
