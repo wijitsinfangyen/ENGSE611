@@ -1,0 +1,53 @@
+/* พื้นฐาน */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+/* หัวข้อ */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: calc(100vh - 80px);
+}
+
+/* เมนู */
+.menu {
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.menu h3 {
+    margin-top: 0;
+}
+
+.menu a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* เนื้อหา */
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}

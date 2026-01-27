@@ -1,0 +1,53 @@
+/* พื้นฐานของหน้าเว็บ */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #eef1f6;
+}
+
+/* กล่องหลัก */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px;
+}
+
+/* การ์ด */
+.info-box {
+    width: 240px;
+    padding: 22px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: all 0.35s ease;
+}
+
+/* เอฟเฟกต์ hover */
+.info-box:hover {
+    transform: translateY(-10px) scale(1.08);
+}
+
+/* หัวข้อ */
+.info-box h2 {
+    margin-bottom: 12px;
+}
+
+/* เนื้อหา */
+.info-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* สีของแต่ละกล่อง */
+.box-a {
+    background-color: #d9dde3;
+}
+
+.box-b {
+    background-color: #a8f40f;
+}
+
+.box-c {
+    background-color: #c8ccd2;
+}
