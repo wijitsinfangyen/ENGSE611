@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Loop Practice A</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Loop Practice</h2>
+    <button onclick="runLoopA()">Run Code</button>
+
+    <div id="outputBox"></div>
+
+    <script>
+        function runLoopA() {
+
+            let maxNumber = 20;
+            let output = "";
+
+            // 1) 0 - maxNumber พร้อมคู่/คี่
+            output += "<h3>แสดงเลข 0 - " + maxNumber + "</h3>";
+
+            for (let i = 0; i <= maxNumber; i++) {
+                if (i % 2 === 0) {
+                    output += i + " (คู่)<br>";
+                    console.log(i + " (คู่)");
+                } else {
+                    output += i + " (คี่)<br>";
+                    console.log(i + " (คี่)");
+                }
+            }
+
+            // 2) นับทีละ 2
+            output += "<h3>นับทีละ 2</h3>";
+            console.log("----- นับทีละ 2 -----");
+
+            for (let i = 0; i <= maxNumber; i += 2) {
+                output += i + "<br>";
+                console.log(i);
+            }
+
+            // 3) นับถอยหลัง 10 -> 0
+            output += "<h3>นับถอยหลัง 10 → 0</h3>";
+            console.log("----- นับถอยหลัง -----");
+
+            for (let i = 10; i >= 0; i--) {
+                output += i + "<br>";
+                console.log(i);
+            }
+
+            document.getElementById("outputBox").innerHTML = output;
+        }
+    </script>
+
+</body>
+</html>
+
+

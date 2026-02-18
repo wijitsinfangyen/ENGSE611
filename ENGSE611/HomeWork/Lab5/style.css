@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#outputBox {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 38px;
+    width: 300px;
+    background-color: #B9BDC2;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #B9BDC2;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+}
